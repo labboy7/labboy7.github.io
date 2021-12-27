@@ -85,8 +85,8 @@
       }
     </style>
     <script>
-      if(document.getElementById('button1'). clicked == true) {
-        alert("We have no projects");
+      function buttonclicked() {
+        alert("This is our only project");
       }
     </script>
   </head>
@@ -95,6 +95,6 @@
     <h1 id="bannerimg2">The future</h1>
     <h1 id="recbannerimg"></h1>
     <h1 id="card1">The future</h1>
-    <button type="button" id="button1">Go to projects</button>
+    <button type="button" id="button1" onclick="buttonclicked()">Go to projects</button>
   </body>
 </html>
